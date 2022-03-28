@@ -1,6 +1,5 @@
 package com.sap.flickrapp.repository
 
-import androidx.lifecycle.MutableLiveData
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
 import com.sap.flickrapp.data.PhotoResponse
@@ -40,7 +39,7 @@ class PhotoDataSource @Inject constructor(
                 nextKey = if (photos.isEmpty()) {
 
                     null
-                }else position + 1
+                } else position + 1
             )
         } catch (exception: IOException) {
             LoadResult.Error(exception)

@@ -13,9 +13,9 @@ class PhotoAdapter :
     PagingDataAdapter<PhotoResponse, RecyclerView.ViewHolder>(PhotoDiffCallBack()) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): RecyclerView.ViewHolder {
-            val binding =
-                ItemPhotoListBinding.inflate(LayoutInflater.from(parent.context), parent, false)
-            return PhotoViewHolder(binding)
+        val binding =
+            ItemPhotoListBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return PhotoViewHolder(binding)
     }
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
@@ -36,7 +36,6 @@ class PhotoAdapter :
         }
 
     }
-
 
 
     class PhotoViewHolder(private val binding: ItemPhotoListBinding) :

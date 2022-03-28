@@ -1,6 +1,5 @@
 package com.sap.flickrapp.repository
 
-import androidx.lifecycle.switchMap
 import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.liveData

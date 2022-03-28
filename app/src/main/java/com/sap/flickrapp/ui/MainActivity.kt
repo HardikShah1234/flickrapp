@@ -2,7 +2,6 @@ package com.sap.flickrapp.ui
 
 import android.database.sqlite.SQLiteCursor
 import android.os.Bundle
-import android.view.View
 import android.widget.SearchView
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -12,7 +11,6 @@ import com.sap.flickrapp.databinding.ActivityMainBinding
 import com.sap.flickrapp.db.Adapter
 import com.sap.flickrapp.db.SuggestionsDatabase
 import com.sap.flickrapp.models.MainActivityViewModel
-import com.sap.flickrapp.repository.NetworkState
 import com.sap.flickrapp.repository.PhotoAdapter
 import dagger.hilt.android.AndroidEntryPoint
 
