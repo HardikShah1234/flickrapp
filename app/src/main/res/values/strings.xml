@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">flickrapp</string>
+    <string name="connection_problem">Connection Problem</string>
+    <string name="error_message">Error Message</string>
+</resources>
